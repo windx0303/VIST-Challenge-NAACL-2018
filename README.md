@@ -21,7 +21,7 @@ You can also use JVM parameter `-Xmx` to set maximum Java heap size, e.g., `java
 
 For running `EvalVIST.jar`, as shown in `runnable_jar` folder, please put:
 
-1. `data` folder (including the `paraphrase-en.gz` in it. Can be found in `src/main/resources/meteor-1.5/`)
+1. `data` folder (including the `paraphrase-en.gz` in it. Can be found in `src/main/resources/meteor-1.5` folder)
 2. `vist-challenge-template.json` (can be found in `src/main/resources` folder)
 
 at the same folder of `EvalVIST.jar` file.
