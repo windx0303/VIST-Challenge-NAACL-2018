@@ -16,7 +16,13 @@ runnable_jar/EvalVIST.jar
 java -jar EvalVIST.jar -testFile <test_file_path> -gsFile <gs_file_path>
 ```
 
-For running `EvalVIST.jar`, as shown in `runnable_jar` folder, please put (1) `data` folder (including the `paraphrase-en.gz` in it) and (2) `vist-challenge-template.json` at the same folder of EvalVIST.jar file.
+For running `EvalVIST.jar`, as shown in `runnable_jar` folder, please put:
+
+1. `data` folder (including the `paraphrase-en.gz` in it), and
+2. `vist-challenge-template.json` (can be found in `src/main/resources` folder)
+
+at the same folder of EvalVIST.jar file.
+
 
 | Parameters (All required) | Description |
 | ------------ | ------------- |
