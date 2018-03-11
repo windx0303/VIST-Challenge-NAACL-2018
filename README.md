@@ -27,11 +27,12 @@ at the same folder of `EvalVIST.jar` file.
 The template file (`vist-challenge-template.json`) is provided by the hosts of VIST Challenge for specifying which photo sequences are included in this challenge.
 A few (~3%) photo sequences in the VIST test set are *not* included in the challenge because these photos have been removed from Flickr by their owners. 
 
+The following two parameters are both **required**:
 
-| Parameter (All Required) | Description |
+| Parameter | Description |
 | ------------ | ------------- |
-| **testFile** | **Your submission file**, which contains exactly one story for each photo sequence. Please see the following section for format details. |
-| **gsFile** | **Gold-standard file**, which contains the stories that were written by human workers. Please go to the [VIST website](http://visionandlanguage.net/VIST/dataset.html) to download the test set (~17MB, `test.story-in-sequence.json`) of Images-in-Sequence (SIS) data. For the VIST challenge, we also collected 3 extra new stories for each photo sequence in the test set. This extra test set is not public. |
+| **testFile** | The path of **your submission file**, which contains exactly one story for each photo sequence. Please see the following section for format details. |
+| **gsFile** | The path of **gold-standard file**, which contains the stories that were written by human workers. Please go to the [VIST website](http://visionandlanguage.net/VIST/dataset.html) to download the test set (~17MB, `test.story-in-sequence.json`) of Images-in-Sequence (SIS) data. For the VIST challenge, we also collected 3 extra new stories for each photo sequence in the test set. This extra test set is not public. |
 
 
 
