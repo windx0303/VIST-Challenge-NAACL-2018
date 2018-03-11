@@ -9,7 +9,7 @@ This Github repository contains the official evaluation script of the [VIST Chal
 
 For each submitted story *Story<sub>test</sub>*, this evaluation script: 
 
-1. first calculates its **maximum** [Meteor](http://www.cs.cmu.edu/~alavie/METEOR/README.html) score against all gold-standard stories of the same photo sequence (*Story<sub>human-1</sub>* to *Story<sub>human-N</sub>*); and then
+1. first calculates its **maximum** [Meteor](http://www.cs.cmu.edu/~alavie/METEOR/README.html) score against each of all gold-standard stories of the same photo sequence (*Story<sub>human-1</sub>* to *Story<sub>human-N</sub>*); and then
 2. calculates the **average** maximum [Meteor](http://www.cs.cmu.edu/~alavie/METEOR/README.html) score of all photo sequences. 
 
 
