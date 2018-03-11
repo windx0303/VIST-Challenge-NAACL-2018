@@ -115,6 +115,7 @@ You can use these files as the test file to try out the evaluation script.
 |**example-submission-file-extra.empty.test.json**|All stories are empty strings. The resulting METEOR score output should be 0.|
 |**example-submission-file-extra.happy.test.json**|Simple baseline. All stories are "everyone is happy ." repeating 5 times.|
 |**example-submission-file-extra.missing.happy.test.json**|This file missing one story. The script should report errors.|
+|**example-submission-file-extra.wrong.happy.test.json**|This file is of incorrect JSON format. The script should report errors.|
 
 ## Example Output
 
