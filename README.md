@@ -2,14 +2,21 @@
 
 This Github repository contains the official evaluation script of the [VIST Challenge at NAACL 2018](http://visionandlanguage.net/workshop2018/#challenge).
 
-## Runnable JAR File Download (.zip)
+## Runnable JAR File Download
 
+```
+runnable_jar/EvalVIST.jar
+```
 
 ## JAR File Usage
 
 ```
 java -jar EvalVIST.jar -testFile <test_file_path> -gsFile <gs_file_path>
 ```
+
+Please put the ``data`` folder (including ```paraphrase-en.gz``` at the same folder of EvalVIST.jar file. My code needs data/paraphrase-en.gz to run.
+
+
 
 
 | Parameters (All required) | Description |

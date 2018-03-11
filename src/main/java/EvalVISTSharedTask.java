@@ -114,6 +114,7 @@ public class EvalVISTSharedTask {
 			double maxScore = -1;
 			for(String nowGsStoryText: gsStoryHash.get(nowPhotoSeqKey)){
 				double nowScore = scorer.getMeteorStats(nowTestStoryText, nowGsStoryText).score;
+				//System.out.println(nowScore);
 				if(nowScore>maxScore){
 					maxScore = nowScore;
 				}
