@@ -13,10 +13,10 @@ java -jar EvalVIST.jar -testFile <test_file_path> -gsFile <gs_file_path>
 ```
 
 
-| Parameter (All required) | Description |
+| Parameters (All required) | Description |
 | ------------ | ------------- |
 | testFile | Your submission file, which contains exactly one story for each photo sequence. Please see the following section for format details. |
-| gsFile | Gold-standard file, which means the stories were written by human workers. Please go to the VIST website (http://visionandlanguage.net/VIST/dataset.html) to download the test set (~17MB, "test.story-in-sequence.json") of Images-in-Sequence (SIS) data. For the VIST challenge, we also collected 3 extra new stories for each photo sequence in the test set. This extra test set is not public. |
+| gsFile | Gold-standard file, which means the stories were written by human workers. Please go to the [VIST website](http://visionandlanguage.net/VIST/dataset.html) to download the test set (~17MB, "test.story-in-sequence.json") of Images-in-Sequence (SIS) data. For the VIST challenge, we also collected 3 extra new stories for each photo sequence in the test set. This extra test set is not public. |
 
 
 
