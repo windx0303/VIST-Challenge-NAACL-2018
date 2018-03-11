@@ -1,6 +1,6 @@
 # Evaluation Script of VIST Challenge at NAACL 2018
 
-This Github repo contains the official evaluation script of the VIST Challenge at NAACL 2018.
+This Github repository contains the official evaluation script of the [VIST Challenge at NAACL 2018](http://visionandlanguage.net/workshop2018/#challenge).
 This repo is created and maintained by Ting-Hao (Kenneth) Huang (tinghaoh@cs.cmu.edu).
 
 ## Runnable JAR File Download (.zip)
