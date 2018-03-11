@@ -23,6 +23,12 @@ For running `EvalVIST.jar`, as shown in `runnable_jar` folder, please put:
 
 at the same folder of `EvalVIST.jar` file.
 
+
+Template file (`vist-challenge-template.json`) is provided by the hosts of VIST Challenge. This file is used to specify which photo sequences are included in this challenge.
+
+The reason why a few (~3%) of photo sequences in the VIST test set are not included in this challenge is because that the owners of these photos removed them from Flickr. 
+
+
 | Parameter (All Required) | Description |
 | ------------ | ------------- |
 | **testFile** | **Your submission file**, which contains exactly one story for each photo sequence. Please see the following section for format details. |
