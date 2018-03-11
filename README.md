@@ -99,8 +99,25 @@ You can use these files as the test file to try out the evaluation script.
 |---------|-----------|
 |**example-submission-file.test.json**|Contains the first human-generated story of each photo sequence in the VIST test set. If using the VIST test set as gsFile, the resulting METEOR score output should be 1 (or 0.99999999...).|
 |**example-submission-file-extra.empty.test.json**|All stories are empty strings. The resulting METEOR score output should be 0.|
-|**example-submission-file-extra.happy.test.json**|Simple baseline. All stories are *everyone is happy .* repeating 5 times.|
+|**example-submission-file-extra.happy.test.json**|Simple baseline. All stories are "everyone is happy ." repeating 5 times.|
 |**example-submission-file-extra.missing.happy.test.json**|This file missing one story. The script should report errors.|
+
+## Example Output
+
+```
+[Test File] ..\example_submission_json\example-submission-file.test.json
+[Passed] Test file is in valid JSON syntax.
+[Passed] Each photo sequence has only one story.
+[Passed] All required stories are submitted.
+MeteorConfiguration...
+setTask...
+scorer created...
+--------------------------
+Avg. Max Meteor Score =
+0.9999520462921719
+```
+
+
 
 
 
