@@ -16,13 +16,15 @@ runnable_jar/EvalVIST.jar
 java -jar EvalVIST.jar -testFile <test_file_path> -gsFile <gs_file_path>
 ```
 
+You can also use JVM parameter `-Xmx` to set maximum Java heap size, e.g., `java -Xmx2g -jar EvalVIST.jar -testFile <test_file_path> -gsFile <gs_file_path>`.
+
+
 For running `EvalVIST.jar`, as shown in `runnable_jar` folder, please put:
 
 1. `data` folder (including the `paraphrase-en.gz` in it), and
 2. `vist-challenge-template.json` (can be found in `src/main/resources` folder)
 
 at the same folder of `EvalVIST.jar` file.
-
 
 The template file (`vist-challenge-template.json`) is provided by the hosts of VIST Challenge for specifying which photo sequences are included in this challenge.
 A few (~3%) photo sequences in the VIST test set are *not* included in the challenge because these photos have been removed from Flickr by their owners. 
