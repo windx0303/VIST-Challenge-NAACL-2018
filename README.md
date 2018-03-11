@@ -21,13 +21,12 @@ For running `EvalVIST.jar`, as shown in `runnable_jar` folder, please put:
 1. `data` folder (including the `paraphrase-en.gz` in it), and
 2. `vist-challenge-template.json` (can be found in `src/main/resources` folder)
 
-at the same folder of EvalVIST.jar file.
+at the same folder of `EvalVIST.jar` file.
 
-
-| Parameters (All required) | Description |
+| Parameter (All Required) | Description |
 | ------------ | ------------- |
-| testFile | Your submission file, which contains exactly one story for each photo sequence. Please see the following section for format details. |
-| gsFile | Gold-standard file, which means the stories were written by human workers. Please go to the [VIST website](http://visionandlanguage.net/VIST/dataset.html) to download the test set (~17MB, "test.story-in-sequence.json") of Images-in-Sequence (SIS) data. For the VIST challenge, we also collected 3 extra new stories for each photo sequence in the test set. This extra test set is not public. |
+| **testFile** | **Your submission file**, which contains exactly one story for each photo sequence. Please see the following section for format details. |
+| **gsFile** | **Gold-standard file**, which contains the stories that were written by human workers. Please go to the [VIST website](http://visionandlanguage.net/VIST/dataset.html) to download the test set (~17MB, `test.story-in-sequence.json`) of Images-in-Sequence (SIS) data. For the VIST challenge, we also collected 3 extra new stories for each photo sequence in the test set. This extra test set is not public. |
 
 
 
