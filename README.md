@@ -89,6 +89,13 @@ Your submitted JSON file also needs to satisfy the following requirements, or it
 3. Your JSON file should contain stories for all the photo sequences listed in the template file (`vist-challenge-template.json`). You can simply take the template file and fill in the `story_text_normalized` field of each photo sequence.
 4. Any non-ASCII characters will be ignored for evaluation.
 
+## Example Submission Files
+
+We also provide a few example submission files in the `example_submission_json` folder.
+You can use these files as the test file to try out the evaluation script.
+
+
+
 
 ## Contact
 
