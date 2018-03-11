@@ -2,7 +2,7 @@
 
 This Github repository contains the official evaluation script of the [VIST Challenge at NAACL 2018](http://visionandlanguage.net/workshop2018/#challenge).
 
-For each photo sequence, the competition team will submit one story Story<sub>test</sub>.
+For each photo sequence, the competition team will submit one story *Story<sub>test</sub>*.
  
 
 ## Runnable JAR File
