@@ -34,9 +34,9 @@ The following two parameters are both **required**:
 | **testFile** | The path of **your submission file**, which contains exactly one story for each photo sequence. Please see the following section for format details. |
 | **gsFile** | The path of **gold-standard file**, which contains the stories that were written by human workers. Please go to the [VIST website](http://visionandlanguage.net/VIST/dataset.html) to download the test set (~17MB, `test.story-in-sequence.json`) of Images-in-Sequence (SIS) data. For the VIST challenge, we also collected 3 extra new stories for each photo sequence in the test set. This extra test set is not public. |
 
-
-
 ## Submission Format
+
+Please upload your submissions as a JSON file in the following format:
 
 ```json
 {
@@ -81,6 +81,14 @@ The following two parameters are both **required**:
   ]
 }
 ```
+
+Your submitted JSON file also needs to satisfy the following requirements, or it will be rejected by the system:
+
+1. For each story, please concatenate all the sentences together, with a space in between, to form a the story.
+2. Your JSON file should have only one single story for each photo sequence.
+3. Your JSON file should contain stories for all the photo sequences listed in the template file (`vist-challenge-template.json`). You can simply take the template file and fill in the `story_text_normalized` field of each photo sequence.
+4. Any non-ASCII characters will be ignored for evaluation.
+
 
 ## Contact
 
