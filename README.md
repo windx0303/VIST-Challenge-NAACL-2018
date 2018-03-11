@@ -2,7 +2,9 @@
 
 This Github repository contains the official evaluation script of the [VIST Challenge at NAACL 2018](http://visionandlanguage.net/workshop2018/#challenge).
 
-## Runnable JAR File Download
+## Runnable JAR File
+
+You can download the entire `runnable_jar` folder and run `EvalVIST.jar` as it is.
 
 ```
 runnable_jar/EvalVIST.jar
