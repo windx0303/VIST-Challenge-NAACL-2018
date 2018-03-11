@@ -2,15 +2,15 @@
 
 This Github repository contains the official evaluation script of the [VIST Challenge at NAACL 2018](http://visionandlanguage.net/workshop2018/#challenge).
 
-For each photo sequence, the competition team will submit one story *Story<sub>test</sub>*.
+In [VIST Challenge at NAACL 2018](http://visionandlanguage.net/workshop2018/#challenge), the competition team will submit one story *Story<sub>test</sub>* for each photo sequence. 
 
-In the gold-standard file, *N* human-generated stories *Story<sub>(gold, 1)</sub>*, *Story<sub>(gold, 2)</sub>*, ..., *Story<sub>(gold, N)</sub>* were collected.
+And for each photo sequence, *N* human-generated stories *Story<sub>human-1</sub>*, *Story<sub>human-2</sub>*, ..., *Story<sub>human-N</sub>* were also collected as the gold-standard stories.
 
-This evaluation script calculates the *MAX(Story<sub>test</sub>, Story<sub>(gold, i)</sub>)*.  
+For each submitted story *Story<sub>test</sub>*, this evaluation script: 
 
+1. calculates the **maximum** [Meteor](http://www.cs.cmu.edu/~alavie/METEOR/README.html) score against all gold-standard stories *Story<sub>human-i</sub>* of the same photo sequence; and then
+2. calculate the **average** maximum [Meteor](http://www.cs.cmu.edu/~alavie/METEOR/README.html) score of all photo sequences. 
 
-
- 
 
 ## Runnable JAR File
 
