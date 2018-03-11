@@ -6,8 +6,8 @@ In [VIST Challenge at NAACL 2018](http://visionandlanguage.net/workshop2018/#cha
 
 For each submitted story *Story<sub>test</sub>*, this evaluation script: 
 
-1. first calculates its **maximum** [Meteor](http://www.cs.cmu.edu/~alavie/METEOR/README.html) score against all gold-standard stories of the same photo sequence (*Story<sub>human-1</sub>* to *Story<sub>human-N</sub>*); and
-2. then calculate the **average** maximum [Meteor](http://www.cs.cmu.edu/~alavie/METEOR/README.html) score of all photo sequences. 
+1. first calculates its **maximum** [Meteor](http://www.cs.cmu.edu/~alavie/METEOR/README.html) score against all gold-standard stories of the same photo sequence (*Story<sub>human-1</sub>* to *Story<sub>human-N</sub>*); and then
+2. calculates the **average** maximum [Meteor](http://www.cs.cmu.edu/~alavie/METEOR/README.html) score of all photo sequences. 
 
 
 ## Runnable JAR File
