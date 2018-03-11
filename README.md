@@ -4,7 +4,8 @@ This Github repository contains the official evaluation script of the [VIST Chal
 
 ## Evaluation Procedure
 
-In [VIST Challenge at NAACL 2018](http://visionandlanguage.net/workshop2018/#challenge), the competition team will submit one story *Story<sub>test</sub>* for each photo sequence; and for each photo sequence, *N* human-generated stories *Story<sub>human-1</sub>*, *Story<sub>human-2</sub>*, ..., *Story<sub>human-N</sub>* were also collected as the gold-standard stories.
+1. In [VIST Challenge at NAACL 2018](http://visionandlanguage.net/workshop2018/#challenge), the competition team will submit (only) one story *Story<sub>test</sub>* for each photo sequence. 
+2. For each photo sequence, *N* human-generated stories *Story<sub>human-1</sub>*, *Story<sub>human-2</sub>*, ..., *Story<sub>human-N</sub>* have been collected as the gold-standard stories.
 
 For each submitted story *Story<sub>test</sub>*, this evaluation script: 
 
