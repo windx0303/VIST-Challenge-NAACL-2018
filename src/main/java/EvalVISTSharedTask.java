@@ -59,14 +59,14 @@ public class EvalVISTSharedTask {
 	static File gsFile;
 	
 	public static void main(String[] args) throws IOException {
-
+		
 		//java -jar EvalVISTSharedTask -testFile <testFile_path> -gsFile <gsFile_path>
 		//test file: the file that the competition team submitted
 		//gs (gold-standard) file: the file that contains worker-generated stories
 		
 		//set arguments
 		setArguments(args);
-		System.out.println("[Test File] "+testFile.getPath());
+		//System.out.println("[Test File] "+testFile.getPath());
 		
 		//build gson builder 
 		builder = new GsonBuilder();

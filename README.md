@@ -4,25 +4,25 @@ This Github repository contains the official evaluation script of the [VIST Chal
 
 ## Evaluation Procedure
 
-1. In [VIST Challenge at NAACL 2018](http://visionandlanguage.net/workshop2018/#challenge), the competition team will submit (only) one story *Story<sub>test</sub>* for each photo sequence. 
+1. In [VIST Challenge at NAACL 2018](http://visionandlanguage.net/workshop2018/#challenge), the competition team will submit one (and only one) story *Story<sub>test</sub>* for each photo sequence. 
 2. For each photo sequence, *N* human-generated stories *Story<sub>human-1</sub>*, *Story<sub>human-2</sub>*, ..., *Story<sub>human-N</sub>* have been collected as the gold-standard stories.
 
 This evaluation script: 
 
 1. For each photo sequence, it calculates the **maximum** [Meteor](http://www.cs.cmu.edu/~alavie/METEOR/README.html) score of all
 (*Story<sub>test</sub>*, *Story<sub>human-n</sub>*) pairs.
-2. It calculates the **average** maximum [Meteor](http://www.cs.cmu.edu/~alavie/METEOR/README.html) score of all photo sequences. 
+2. It then calculates the **average** maximum [Meteor](http://www.cs.cmu.edu/~alavie/METEOR/README.html) score of all photo sequences. 
 
 
 ## Runnable JAR File
 
-You can download the entire `runnable_jar` folder and run `EvalVIST.jar` as it is.
+You can download the entire `runnable_jar` folder and run `EvalVIST.jar` as it is within the folder.
 
 ```
 runnable_jar/EvalVIST.jar
 ```
 
-## JAR File Usage
+## Runnable JAR File Usage
 
 ```
 java -jar EvalVIST.jar -testFile <test_file_path> -gsFile <gs_file_path>
@@ -120,7 +120,6 @@ You can use these files as the test file to try out the evaluation script.
 ## Example Output
 
 ```
-[Test File] ..\example_submission_json\example-submission-file.test.json
 [Passed] Test file is in valid JSON syntax.
 [Passed] Each photo sequence has only one story.
 [Passed] All required stories are submitted.
@@ -132,12 +131,9 @@ Avg. Max Meteor Score =
 0.9999520462921719
 ```
 
+## For Compiling the Source Code
 
-
-
-
-
-
+We use the [Meteor 1.5](http://www.cs.cmu.edu/~alavie/METEOR/) for this script. You need to include its JAR file when compiling the source code.
 
 ## Contact
 
