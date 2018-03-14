@@ -133,7 +133,7 @@ Avg. Max Meteor Score =
 
 ## For Compiling the Source Code
 
-We use the [Meteor 1.5](http://www.cs.cmu.edu/~alavie/METEOR/) for this script. You need to include its JAR file when compiling the source code.
+We used the [Meteor 1.5](http://www.cs.cmu.edu/~alavie/METEOR/) for this Java code. You need to include its JAR file when compiling the source code.
 
 ## Contact
 
