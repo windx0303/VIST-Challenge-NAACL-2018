@@ -2,6 +2,17 @@
 
 This Github repository contains the official evaluation script of the [VIST Challenge at NAACL 2018](http://visionandlanguage.net/workshop2018/#challenge).
 
+## Human Evaluation Interface
+
+You can download the interface web page in the following folder: 
+
+```
+human_eval_interface/VIST_Demo_webpage.zip
+```
+
+The 200 sampled human stories in the VIST test set were used to show how the human rating were set up. Please see the `www` folder in the .zip file. 
+
+
 ## Evaluation Procedure
 
 1. In [VIST Challenge at NAACL 2018](http://visionandlanguage.net/workshop2018/#challenge), the competition team will submit one (and only one) story *Story<sub>test</sub>* for each photo sequence. 
